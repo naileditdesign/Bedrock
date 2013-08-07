@@ -1,0 +1,35 @@
+
+/*!
+ * Bedrock Medi Query extension v1.0
+ *
+ * Copyright 2013 Nailed It Design,
+ *
+ * Add all your extra stuff here to further customise your site (Make sure you call this file last!)
+ * 
+ */
+
+
+/* We use this media query to add styles to any device that supports media queries */
+@media only screen { }
+
+
+/* Desktop View Changes 980px and over. */
+@media only screen and (min-width: 980px) {}
+
+
+/* Used to alter styles for screens at less than 768px wide like the IPad portrait view. This is where the grid changes. */
+@media only screen and (max-width: 768px) {}
+
+/* Used to alter portrait mobile screens and less than 600px wide like Kindle Fire and IPad mini. */
+@media only screen and (max-width: 600px) {}
+
+/* Used to alter styles for IPhone 5 landscape and less than 568px wide. */
+@media only screen and (max-width: 568px) {}
+
+/* Used to alter portrait mobile screens and less than 320px wide. */
+@media only screen and (max-width: 320px) {}
+
+
+/* We also use Modernizr to add a .touch class to the body when applicable */
+/* You can prepend this class to anything and it will style only for touch devices */
+.touch .your-element {}
